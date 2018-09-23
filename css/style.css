@@ -776,4 +776,12 @@ Responsive media queries
     .navbar-default .navbar-nav > li > a{
         text-align: center;
     }
+
+
 }
+
+.img-responsive{
+        margin: 5px;    
+        width: 20%;
+        height: 30%;
+    }
