@@ -5,25 +5,35 @@
 */
 
 body {
+font-family: 'Montserrat', sans-serif;
+
 	font-size: 15px;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+/*	font-family: 'Open Sans', sans-serif;
+*/    font-weight: 400;
 }
 ol, ul {
+font-family: 'Montserrat', sans-serif;
+
 	list-style: none;
 }
 blockquote, q {
+font-family: 'Montserrat', sans-serif;
+
 	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
+font-family: 'Montserrat', sans-serif;
+
 	content: '';
 	content: none;
 }
 table {
+font-family: 'Montserrat', sans-serif;
+
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -31,7 +41,7 @@ table {
 	padding: 60px 0px;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: Open Sans, sans-serif;
+font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #4B4B4C;
 }
@@ -132,7 +142,7 @@ Banner
 	margin-top: 150px;
 }
 .intro-para{
-	font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
 	font-size: 45px;
 	color: #fff;
 	margin-top: 30px;
@@ -785,3 +795,13 @@ Responsive media queries
         width: 50%;
         height: 40%;
     }
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
+    font-weight: 200;
+    font-style: italic;
+}
